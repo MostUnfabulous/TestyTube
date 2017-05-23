@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700");
+@import url("https://fonts.googleapis.com/css?family=Concert+One");
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.tube-nav {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: primary-color;
+}
+
+.tube-nav ul {
+  margin-top: -8px;
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+}
+
+.tube-nav li {
+  text-transform: uppercase;
+}
+
+.tube-header {
+  height: 115px;
+  border-color: #5ec0eb;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  font-family: 'Concert One', cursive;
+}
+
+.tube-header img.logo {
+  margin-top: -28px;
+  height: 125px;
+  width: auto;
+  -webkit-filter: drop-shadow(-3px 3px 9px #222);
+  filter: drop-shadow(-4px 4px 6px #222);
+  padding: 10px;
+}
+
+.tube-header h1 {
+  margin-top: 7px;
+  margin-left: -40px;
+  margin-right: -10px;
+  color: #5ec0eb;
+  font-size: 38px;
+  font-family: 'Concert One', cursive;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.info-tab {
+  height: 36px;
+  background-color: #5ec0eb;
+}
