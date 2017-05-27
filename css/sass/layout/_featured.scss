@@ -1,18 +1,10 @@
-.no-border {
-  margin-top: 17px;
-  margin-bottom: 17px;
-  padding: 0;
-  border-width: 0;
-}
+section {
+  #featured {}
 
-
-section{
-
-  #featured{
-
-
+  #cutting-edge {
+    border: 5px solid red;
+    border-style: solid;
+    border-width: 15px;
   }
-padding-top: 5em;
-
-
+  padding-top: 5em;
 }
