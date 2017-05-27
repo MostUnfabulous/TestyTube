@@ -3,42 +3,54 @@
   height: auto;
 
   &.featured {
-    @include linear-gradient(rgba(255,255,255,0.0), rgba(1,1,1,0.4));
-    bottom: 0%;
-    left: 0;
-    background-size: cover;
+    @include linear-gradient(rgba(1,1,1,0), rgba(1,1,1,1));
+    top:60%;
 
 
   }
 
   &.featured-lead {
-    @extend .featured;
-    @include linear-gradient(rgba(255,255,255,0.0), rgba(1,1,1,0.4));
-    bottom: 0%;
-    left: 0;
-    background-size: cover;
+  @include linear-gradient(rgba(1,1,1,0), rgba(1,1,1,1));
+    top: 60%;
 
 
-    p {
-      padding-top: 20px;
-    }
   }
 
   p {
-    margin-top: -10px;
     color: white;
-    margin-right: 20px;
+    position: absolute;
+    bottom: 0%;
   }
 
   img {
+
     background-size: cover;
-    border-radius: 0;
-      border: 0px;
+    border: 0px;
   }
 
   small {
-    padding-top: 0;
     color: white;
-    margin-right: 35px;
+    padding-right:35px;
+
+
+  }}
+
+  @include media-breakpoint-up(xs) {}
+@include media-breakpoint-up(sm) { }
+@include media-breakpoint-up(md) {}
+@include media-breakpoint-up(lg) {
+  .news {
+
+  &.featured {
+    top:50%;
+
+
   }
-}
+
+  &.featured-lead {
+
+    top: 70%;
+
+
+  }}}
+@include media-breakpoint-up(xl) {}
