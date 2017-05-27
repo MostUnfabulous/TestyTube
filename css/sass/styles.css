@@ -11426,6 +11426,10 @@ input[type=text] {
   padding-right: 35px;
 }
 
+.twitter-timeline {
+  overflow: hidden;
+}
+
 @media (min-width: 992px) {
   .news.featured {
     top: 50%;
