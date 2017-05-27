@@ -11,11 +11,9 @@
 
   <title>The Testy Tube</title>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-  <!-- Custom styles for this template -->
-  <link href="css/sass/styles.css" rel="stylesheet">
+  <!-- All CSS -->
+  <link href="css/sass/styles.min.css" rel="stylesheet">
 
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -55,7 +53,14 @@
             <a class="nav-link disabled" href="#">Blog</a>
           </li>
         </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
+
+        <div class="navbar-collapse collapse dual-nav">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+        <!-- <form class="form-inline my-2 my-lg-0">
           <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
           <input class="form-control" type="text" placeholder="Search">
         </form> -->
@@ -64,43 +69,56 @@
   </div>
 
   <section id="featured">
-    <div class="container-fluid">
-      <div class="col-xs-12 offset-sm-1 col-sm-10 offset-md-2 col-md-8">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="card card-inverse lead no-border">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-xs-12 col-lg-8">
+          <div class="card card-inverse lead mb-3">
             <img class="news" src="img/fractal.jpg" style="" alt="Card image">
             <div class="card-img-overlay news featured-lead">
-              <h3 class="card-title">Ffucking fractals Fuck Everything</h3>
-              <p class="news"><small class="news"><i class="fa fa-clock-o" aria-hidden="true"></i> May 20th 2017   </small>
+              <h2>Fucking fractals Fuck Everything</h2>
+              <p class="news pt-3"><small class="news"><i class="fa fa-clock-o" aria-hidden="true"></i> May 20th 2017   </small>
                 <small class="news">   <i class="fa fa-user-o" aria-hidden="true"></i> By Tom Foley   </small>
                 <small class="news">   <i class="fa fa-comment-o" aria-hidden="true"></i> 23   </small>
                 <small class="news">   <i class="fa fa-eye" aria-hidden="true"></i> 912</small></p>
-
             </div>
           </div>
         </div>
-        <div class="col-md-4">
 
-          <div class="card card-inverse featured no-border">
+        <div class="col-xs-12 col-lg-4">
+          <div class="card card-inverse featured mb-3">
             <img class="news" src="img/ai.jpg" style="" alt="Card image">
             <div class="card-img-overlay news featured">
-
-              <h6 class="card-title">Most AI exhibit unconscious gender bias</h6>
-              <p class="news">
-                <small class="news"><i class="fa fa-clock-o" aria-hidden="true"></i> May 20th 2017</small></p>
+              <h2 class="hidden-lg-up">AI programs exhibit uncouncious gender biases, research reveals</h2>
+              <h3 class="hidden-md-down">AI programs exhibit uncouncious gender biases, research reveals</h3>
+              <p class="news"><small class="news"><i class="fa fa-clock-o" aria-hidden="true"></i> May 20th 2017</small></p>
             </div>
           </div>
 
-          <div class="card card-inverse featured no-border">
+          <div class="card card-inverse featured mb-3">
             <img class="news" src="img/portal.jpg" style="" alt="Card image">
             <div class="card-img-overlay news featured">
-              <h6 class="card-title">Tokyo Portal outage causes issues for warp commuters</h6>
-              <p class="news"><small class="news"><i class="fa fa-clock-o" aria-hidden="true"></i> May 20th 2017   </small></p>
+              <h2 class="hidden-lg-up">Tokyo Portal outage causes issues for warp commuters</h2>
+              <h3 class="hidden-md-down">Tokyo Portal outage causes issues for warp commuters</h3>
+              <p class="news"><small class="news"><i class="fa fa-clock-o" aria-hidden="true"></i> May 20th 2017</small></p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="cutting-edge">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-xs-12 col-lg-8">
+
+        </div>
+
+        <div class="col-xs-12 col-lg-4">
+      <a class="twitter-timeline" data-lang="en" data-width="300" data-height="1000" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/TestyTubeNews">Tweets by TestyTubeNews</a>
+        </div>
       </div>
     </div>
   </section>
@@ -109,6 +127,7 @@
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="js/ie10-viewport-bug-workaround.js"></script>
