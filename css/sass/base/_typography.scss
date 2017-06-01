@@ -9,13 +9,33 @@ h6 {
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: $text-color;
+
+
+  &.title-1{
+  color: $title-color-1;
 
 }
+
+&.featured{
+  color: $secondary-color;
+}
+
+&.news-title-lg{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}}
+
+
+
+
 
 p {
     @include font-smoothing;
   font-family: 'PT Sans', sans-serif;
+    color: $text-color;
 }
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap

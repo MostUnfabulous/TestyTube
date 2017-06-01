@@ -11215,13 +11215,44 @@ h6 {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: #302E34;
+}
+
+h1.title-1,
+h2.title-1,
+h3.title-1,
+h4.title-1,
+h5.title-1,
+h6.title-1 {
+  color: #6B6FF9;
+}
+
+h1.featured,
+h2.featured,
+h3.featured,
+h4.featured,
+h5.featured,
+h6.featured {
+  color: #ffffff;
+}
+
+h1.news-title-lg,
+h2.news-title-lg,
+h3.news-title-lg,
+h4.news-title-lg,
+h5.news-title-lg,
+h6.news-title-lg {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'PT Sans', sans-serif;
+  color: #302E34;
 }
 
 @media (min-width: 384px) {
@@ -11336,14 +11367,17 @@ p {
   background-color: #5ec0eb;
 }
 
+footer {
+  height: 200px;
+}
+
 section {
   padding-top: 5em;
 }
 
-section #cutting-edge {
-  border: 5px solid red;
-  border-style: solid;
-  border-width: 15px;
+section#cutting-edge .card-group {
+  border-top: 6px solid #6B6FF9;
+  padding: 0px;
 }
 
 .tube-nav {

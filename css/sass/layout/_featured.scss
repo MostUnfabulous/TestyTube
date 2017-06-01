@@ -1,10 +1,13 @@
 section {
-  #featured {}
-
-  #cutting-edge {
-    border: 5px solid red;
-    border-style: solid;
-    border-width: 15px;
-  }
   padding-top: 5em;
+
+  &#featured {}
+
+  &#cutting-edge {
+    .card-group{
+      border-top: 6px solid $title-color-1;
+      padding: 0px;
+
+    }
+  }
 }
