@@ -24,10 +24,25 @@
     letter-spacing: -2px;
     text-transform: uppercase;
     font-weight: 300px;
+
   }
 }
 
 .info-tab {
-  height: 36px;
+  height: 1em;
   background-color: $primary-color;
+  padding-top: 0.5em;
+  padding-bottom: 2.2em;
+
+  a{
+    font-family: 'Concert One', cursive;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 1em;
+    margin-right:  1em;
+    font-weight: normal;
+    border-right:1px solid #ffffff;
+
+  }
 }

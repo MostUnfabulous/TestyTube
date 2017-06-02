@@ -11363,8 +11363,21 @@ p {
 }
 
 .info-tab {
-  height: 36px;
+  height: 1em;
   background-color: #5ec0eb;
+  padding-top: 0.5em;
+  padding-bottom: 2.2em;
+}
+
+.info-tab a {
+  font-family: 'Concert One', cursive;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-right: 1em;
+  margin-right: 1em;
+  font-weight: normal;
+  border-right: 1px solid #ffffff;
 }
 
 footer {
@@ -11385,7 +11398,8 @@ section#cutting-edge .card-group {
   margin: 0;
   padding: 0;
   border: 0;
-  background: primary-color;
+  z-index: 1030;
+  background-color: #ffffff;
 }
 
 .tube-nav ul {
