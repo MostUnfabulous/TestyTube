@@ -11369,6 +11369,7 @@ p {
 
 footer {
   height: 200px;
+  background-color: #1a1a1a;
 }
 
 section {
@@ -11424,6 +11425,10 @@ input[type=text] {
   color: white;
 }
 
+.fa.fa-social {
+  color: #5ec0eb;
+}
+
 .news {
   width: 100%;
   height: auto;
@@ -11441,6 +11446,11 @@ input[type=text] {
   background: -webkit-linear-gradient(legacy-direction(rgba(1, 1, 1, 0)), #010101);
   background: linear-gradient(rgba(1, 1, 1, 0), #010101);
   top: 60%;
+}
+
+.news.small-news {
+  width: 150px;
+  height: auto;
 }
 
 .news p {
@@ -11461,6 +11471,17 @@ input[type=text] {
 
 .twitter-timeline {
   overflow: hidden;
+}
+
+.img-square {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  width: 130px;
+  height: 130px;
+  margin-right: 2em;
+  margin-bottom: .3em;
+  object-fit: cover;
 }
 
 @media (min-width: 992px) {
